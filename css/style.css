@@ -1,0 +1,52 @@
+body{
+    background-color: #A3BAC3;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    color: white;
+}
+form{
+    background-color: #006989;
+    padding: 20px 60px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 0px 50px black;
+}
+label{
+    width: 200px;
+}
+.d-flex{
+    margin: 20px 0;
+}
+h2{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+input[type=checkbox]{
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn{
+    background-color: #01A7C2;
+    color: white;
+}
+.btn:hover{
+    background-color: #A3BAC3;
+    color: white;
+}
